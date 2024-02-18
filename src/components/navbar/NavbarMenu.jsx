@@ -4,7 +4,7 @@ class NavbarMenu extends Component {
   render() {
     return (
       <div>
-        <div className="navbar-menu px-16 py-5 border-b-2">
+        <div className="navbar-menu px-16 py-5 border-b-2 bg-white">
           <ul className="flex flex-wrap">
             <li>
               <img

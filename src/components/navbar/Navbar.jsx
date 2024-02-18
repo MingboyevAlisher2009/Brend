@@ -8,7 +8,7 @@ class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar flex flex-wrap border-y-2 py-4 px-16">
+        <nav className="navbar flex flex-wrap border-y-2 py-4 px-16 bg-white">
           <div className="navbar-logo inline-block  cursor-pointer">
             <img className="inline-block mb-3" src={navbarLogo} alt="" />
             <span className="inline-block text-3xl font-bold text-primary">
