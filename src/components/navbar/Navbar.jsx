@@ -2,12 +2,13 @@ import { Component } from "react";
 
 // img
 import navbarLogo from "../../img/logo-symbol.png";
+import NavbarMenu from './NavbarMenu';
 
 class Navbar extends Component {
   render() {
     return (
       <>
-        <nav className="navbar flex border-y-2 py-4 px-16">
+        <nav className="navbar flex flex-wrap border-y-2 py-4 px-16">
           <div className="navbar-logo inline-block  cursor-pointer">
             <img className="inline-block mb-3" src={navbarLogo} alt="" />
             <span className="inline-block text-3xl font-bold text-primary">
@@ -29,7 +30,7 @@ class Navbar extends Component {
             <select className="p-1  border-s-2 border-secondary outline-none	">
               <option selected>All category</option>
             </select>
-            <button className="px-6 py-2 bg-primary rounded-e-sm text-white">
+            <button className="px-6 py-2 bg-primary1 rounded-e-sm text-white">
               Search
             </button>
           </div>
@@ -49,7 +50,7 @@ class Navbar extends Component {
                 className="mx-auto"
                 width="30"
                 height="30"
-                src="https://img.icons8.com/material-outlined/30/757575/filled-speech-bubble-with-dots.png"
+                src="https://img.icons8.com/material-outlined/50/757575/filled-speech-bubble-with-dots.png"
                 alt="filled-speech-bubble-with-dots"
               />
               <p className="text-[#757575] ">Message</p>
@@ -76,6 +77,7 @@ class Navbar extends Component {
             </div>
           </div>
         </nav>
+        <NavbarMenu/>
       </>
     );
   }
