@@ -1,6 +1,7 @@
 import { Component } from "react";
 import BannerBoard from "../../../img/Banner-board-800x420 2.png";
 import photo from "../../../img/photo.png";
+import { Link } from 'react-router-dom';
 class HomePage extends Component {
   render() {
     return (
@@ -69,9 +70,11 @@ class HomePage extends Component {
               <button className="w-full py-2 mt-5 bg-secondary rounded-md text-white">
                 Join now
               </button>
-              <button className="w-full py-2 mt-4 bg-white text-secondary rounded-md">
-                Login in
-              </button>
+              <Link to={"/login"}>
+                <button className="w-full py-2 mt-4 bg-white text-secondary rounded-md">
+                  Login
+                </button>
+              </Link>
             </div>
             <div className="register-discount bg-F38332 rounded-xl p-5 mt-6">
               <h1 className="text-2xl font-thin font-sans w-36 text-white">

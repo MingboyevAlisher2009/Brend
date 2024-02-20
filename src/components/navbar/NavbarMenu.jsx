@@ -26,14 +26,22 @@ class NavbarMenu extends Component {
                 <option value="1">One</option>
               </select>
             </li>
-            <li className='ms-auto'>
+            <li className="ms-auto">
               <select className="outline-none font-medium">
                 <option selected>English, USD</option>
               </select>
             </li>
-            <li className='ml-6'>
+            <li className="ml-6">
               <select className="outline-none font-medium">
-                <option className="custom-option">Ship to</option>
+                <option className="custom-option">
+                  <img
+                    width="30"
+                    height="30"
+                    src="https://img.icons8.com/color/48/germany.png"
+                    alt="germany"
+                  />
+                  Ship to
+                </option>
               </select>
             </li>
           </ul>
