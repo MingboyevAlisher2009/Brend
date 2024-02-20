@@ -25,8 +25,6 @@ class Newsletter extends Component {
             <div
               className="input w-80 outline-none p-2 text-base font-medium rounded-lg border-2"
               class="inputbox"
-              data-aos="fade-up"
-              data-aos-duration="3000"
             >
               <input
                 className="input w-80 outline-none p-2 text-base font-medium rounded-lg border-2"

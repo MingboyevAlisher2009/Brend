@@ -10,6 +10,7 @@
   letter-spacing: 0.1em;
   transition: 0.5s;
 }
+
 .inputbox input:valid~span,
 .inputbox input:focus~span {
   scale: 0;

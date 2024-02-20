@@ -1,7 +1,7 @@
 import { Component } from "react";
 import BannerBoard from "../../../img/Banner-board-800x420 2.png";
 import photo from "../../../img/photo.png";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 class HomePage extends Component {
   render() {
     return (
