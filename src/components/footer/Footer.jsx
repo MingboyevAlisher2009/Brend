@@ -4,8 +4,8 @@ import navbarLogo from "../../img/logo-symbol.png";
 class Footer extends Component {
   render() {
     return (
-      <footer>
-        <div className="from-brand flex mt-16 px-16">
+      <footer className='footer border-2 bg-white'>
+        <div className="from-brand flex mt-20 justify-center">
           <div className="brand_info">
             <div className="brand-logo">
               <img className="inline-block mb-3" src={navbarLogo} alt="" />
