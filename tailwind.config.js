@@ -34,11 +34,13 @@ module.exports = {
         red: "#FFE3E3",
         black: "#1C1C1C",
         gray100: "#F7FAFC",
+        gray200: "#EFF2F4",
+        D1E7FF: "#D1E7FF",
+        FFF0DF: "#FFF0DF",
       },
       backgroundImage: {
         "hero-pattern": "url('./img/image 102.png')",
-        "gradient-radial":
-          "linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%)",
+        gradient: "linear-gradient(0deg, #0067FF 0%, #127FFF 100%)",
       },
     },
   },

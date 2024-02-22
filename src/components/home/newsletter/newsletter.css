@@ -1,0 +1,17 @@
+.inputbox span {
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 10px;
+  display: flex;
+  font-family: sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  pointer-events: none;
+  letter-spacing: 0.1em;
+  transition: 0.5s;
+}
+
+.inputbox input:valid~span,
+.inputbox input:focus~span {
+  scale: 0;
+}

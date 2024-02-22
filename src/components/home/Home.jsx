@@ -26,8 +26,8 @@ import image13 from "../../img/image 29.png";
 import image14 from "../../img/image 34.png";
 import image15 from "../../img/image 32.png";
 import image16 from "../../img/image 33.png";
-import OfferSuppliers from './offer-suppliers/OfferSuppliers';
-import RecommendedItems from './recommended-tems/RecommendedItems';
+import OfferSuppliers from "./offer-suppliers/OfferSuppliers";
+import RecommendedItems from "./recommended-tems/RecommendedItems";
 
 // images 3
 import imgItem from "../../img/Bitmap.png";
@@ -39,98 +39,152 @@ import imgItem6 from "../../img/Bitmap2.png";
 import imgItem7 from "../../img/image 86.png";
 import imgItem8 from "../../img/image 90.png";
 import imgItem9 from "../../img/image 85.png";
+import Services from "./servise/Servise";
+
+// images 4
+import servicesImg from "../../img/image 108.png";
+import servicesImg2 from "../../img/image 104.png";
+import servicesImg3 from "../../img/image 106.png";
+import servicesImg4 from "../../img/image 107.png";
+import Suppliers from "./suppliers/Suppliers";
+import Newsletter from "./newsletter/Newsletter";
+import Footer from '../footer/Footer';
 
 class Home extends Component {
   render() {
     return (
-      <div className="bg-gray100">
-        <header className="header">
-          <Navbar />
-          <HomePage />
-        </header>
-        <section>
-          <DiscountCard />
-          <ForHome
-            text="Home and outdoor"
-            img={img}
-            image1={image1}
-            image2={image2}
-            image3={image3}
-            image4={image4}
-            image5={image5}
-            image6={image6}
-            image7={image7}
-            image8={image8}
-          />
-          <ForHome
-            text="Consumer electronics and gadgets"
-            img={img2}
-            image1={image9}
-            image2={image10}
-            style={"for-home-card h-44 border-r-2 border-b-2 px-6 m-0 flex"}
-            image3={image11}
-            image4={image12}
-            image5={image13}
-            image6={image14}
-            image7={image15}
-            image8={image16}
-          />
-          <OfferSuppliers />
-          <h1 className="text-3xl font-bold mt-5 ml-16 ">Recommended items</h1>
-          <div className="for-home flex justify-evenly flex-wrap  px-14 p-0 m-0">
-            <RecommendedItems
-              img={imgItem}
-              money={"$10.30"}
-              description={"T-shirts with multiple colors, for men"}
+      <>
+        <div className="bg-gray100">
+          <header className="header">
+            <Navbar />
+            <HomePage />
+          </header>
+          <section>
+            <DiscountCard />
+            <ForHome
+              text="Home and outdoor"
+              img={img}
+              image1={image1}
+              image2={image2}
+              image3={image3}
+              image4={image4}
+              image5={image5}
+              image6={image6}
+              image7={image7}
+              image8={image8}
             />
-            <RecommendedItems
-              img={imgItem2}
-              money={"$10.30"}
-              description={"Jeans shorts for men blue color"}
+            <ForHome
+              text="Consumer electronics and gadgets"
+              img={img2}
+              image1={image9}
+              image2={image10}
+              style={"for-home-card h-44 border-r-2 border-b-2 px-6 m-0 flex"}
+              image3={image11}
+              image4={image12}
+              image5={image13}
+              image6={image14}
+              image7={image15}
+              image8={image16}
             />
-            <RecommendedItems
-              img={imgItem3}
-              money={"$12.50"}
-              description={"Brown winter coat edium size"}
-            />{" "}
-            <RecommendedItems
-              img={imgItem4}
-              money={"$34.00"}
-              description={"Jeans bag for travel for men"}
-            />
-            <RecommendedItems
-              img={imgItem5}
-              money={"$99.00"}
-              description={"Leather wallet"}
-            />
-            <RecommendedItems
-              img={imgItem6}
-              money={"$9.99"}
-              description={"Canon camera black, 100x zoom"}
-            />
-            <RecommendedItems
-              img={imgItem7}
-              money={"$8.99"}
-              description={"Headset for gaming with mic"}
-            />
-            <RecommendedItems
-              img={imgItem5}
-              money={"$10.30"}
-              description={"Smartwatch silver color modern"}
-            />{" "}
-            <RecommendedItems
-              img={imgItem8}
-              money={"$10.30"}
-              description={"Blue wallet for men leather metarfial"}
-            />
-            <RecommendedItems
-              img={imgItem9}
-              money={"$80.95"}
-              description={"Jeans bag for travel for men"}
-            />
-          </div>
-        </section>
-      </div>
+            <OfferSuppliers />
+            <h1 className="text-3xl font-bold mt-5 ml-16 ">
+              Recommended items
+            </h1>
+            <div className="for-home flex justify-evenly flex-wrap  px-14 p-0 m-0">
+              <RecommendedItems
+                img={imgItem}
+                money={"$10.30"}
+                description={"T-shirts with multiple colors, for men"}
+              />
+              <RecommendedItems
+                img={imgItem2}
+                money={"$10.30"}
+                description={"Jeans shorts for men blue color"}
+              />
+              <RecommendedItems
+                img={imgItem3}
+                money={"$12.50"}
+                description={"Brown winter coat edium size"}
+              />{" "}
+              <RecommendedItems
+                img={imgItem4}
+                money={"$34.00"}
+                description={"Jeans bag for travel for men"}
+              />
+              <RecommendedItems
+                img={imgItem5}
+                money={"$99.00"}
+                description={"Leather wallet"}
+              />
+              <RecommendedItems
+                img={imgItem6}
+                money={"$9.99"}
+                description={"Canon camera black, 100x zoom"}
+              />
+              <RecommendedItems
+                img={imgItem7}
+                money={"$8.99"}
+                description={"Headset for gaming with mic"}
+              />
+              <RecommendedItems
+                img={imgItem5}
+                money={"$10.30"}
+                description={"Smartwatch silver color modern"}
+              />{" "}
+              <RecommendedItems
+                img={imgItem8}
+                money={"$10.30"}
+                description={"Blue wallet for men leather metarfial"}
+              />
+              <RecommendedItems
+                img={imgItem9}
+                money={"$80.95"}
+                description={"Jeans bag for travel for men"}
+              />
+            </div>
+            <div className="services-title text-3xl font-bold mt-6 m-0 ml-16">
+              <h1>Our extra services</h1>
+            </div>
+            <div className="servis flex flex-wrap justify-evenly px-10">
+              <Services
+                servicesImg={servicesImg}
+                servicesTitle={"Source from"}
+                servicesSubtitle={"Industry Hubs"}
+                servicesIcon={
+                  "https://img.icons8.com/fluency-systems-regular/48/search--v1.png"
+                }
+              />
+              <Services
+                servicesImg={servicesImg2}
+                servicesTitle={"Customize"}
+                servicesSubtitle={"Your Products"}
+                servicesIcon={
+                  "https://img.icons8.com/fluency-systems-regular/48/new-product.png"
+                }
+              />
+              <Services
+                servicesImg={servicesImg3}
+                servicesTitle={"Fast, reliable shipping by ocean or air"}
+                servicesSubtitle={"by ocean or air"}
+                servicesIcon={
+                  "https://img.icons8.com/material-sharp/24/sent.png"
+                }
+              />
+              <Services
+                servicesImg={servicesImg4}
+                servicesTitle={"Product monitoring"}
+                servicesSubtitle={"and inspection"}
+                servicesIcon={
+                  "https://img.icons8.com/pastel-glyph/64/security-shield.png"
+                }
+              />
+            </div>
+            <Suppliers />
+            <Newsletter />
+          </section>
+        </div>
+        <Footer />
+      </>
     );
   }
 }
