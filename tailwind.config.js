@@ -23,6 +23,7 @@ module.exports = {
         gray100: "#F7FAFC",
         gray200: "#EFF2F4",
         D1E7FF: "#D1E7FF",
+        FFF0DF: "#FFF0DF",
       },
       backgroundImage: {
         "hero-pattern": "url('./img/image 102.png')",
