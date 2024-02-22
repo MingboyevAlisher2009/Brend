@@ -11,13 +11,12 @@ function Content() {
             <div className='flex flex-row bg-white my-2 rounded-md border border-2 border-gray300 h-50' id='first'>
                 <img className='size-50 p-5' src={first} alt="" />
                 <div className='p-5'>
-                    Canon Cmera EOS 2000, Black 10x zoom
-                    998$
+                    Canon Cmera EOS 2000, Black 10x zoom <br /> <span>998$</span>
                 </div>
             </div>
             <div className='flex flex-row bg-white my-2 rounded-md border border-2 border-gray300 h-50' id='second'>
                 <img className='size-50 p-5' src={second} alt="" />
-                Canon Cmera EOS 2000, Black 10x zoom
+                Canon Cmera EOS 2000, Black 10x zoom <br /> <span>998$</span>
                 <p>998$</p>
             </div>
             <div className='flex flex-row bg-white my-2 rounded-md border border-2 border-gray300 h-50' id='third'>

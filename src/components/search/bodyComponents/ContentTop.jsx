@@ -18,7 +18,7 @@ function ContentTop() {
                         </div>
                         <div className="flex flex-row p-one absolute right-4 top-cent border border-1 bg-white rounded-md outline-gray-300">
                             <img className="bg-white " src={blockView} alt="" />
-                            <img className="bg-gray-300 ml-4 border border-l-1" src={listView} alt="" />
+                            <img className="bg-gray-300 ml-4 border border-l-2 pl-2" src={listView} alt="" />
                         </div>
                     </div>
                 </div>
