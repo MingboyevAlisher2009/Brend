@@ -3,11 +3,24 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        '10': "63px",
+        '20': "140px",
+        '50': "250px",
+        '100': "1220px",
+        'content-top': "1200px",
+        '13': "110px",
+        'one': "10px",
+        'two': "9px",
+        'cent':"7px",
+      },
       colors: {
+        primaryS: "#0D6EFD",
         primary: "#8CB7F5",
         secondary: "#0d6dfcff",
-        gray500: "#8B96A5",
         red: "#EB001B",
+        gray500: "#8B96A5",
+        gray600: "#505050",
       },
       border: {
         borderStyle: "2px solid #0d6dfcff",

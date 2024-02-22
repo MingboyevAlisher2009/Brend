@@ -1,5 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './components/home/Home';
+import Search from './components/search/Search';
 
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
     {
       path: "/",
       element: <Home />
+    },
+    {
+      path: "/search",
+      element: <Search />
     }
   ]);
 
